@@ -1,0 +1,29 @@
+{
+    "name": "kairos/uaparserbundle",
+    "type": "library",
+    "license": "MIT",
+    "description": "User Agent Parser Bundle",
+    "keywords": ["ua-parser","uaparser", "ua-parser-bundle", "user-agent", "php ua"],
+    "homepage": "https://github.com/kairosagency/UAParserBundle.git",
+    "authors": [
+        {
+            "name": "t0k4rt",
+            "homepage": "https://github.com/t0k4rt",
+            "role": "Developer"
+        },
+        {
+            "name": "Matthiew",
+            "homepage": "https://github.com/Matthiew",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.1,<=2.3.1",
+        "kairos/uaparser": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "UAParser": "" }
+    },
+    "target-dir": "UAParser"
+}
