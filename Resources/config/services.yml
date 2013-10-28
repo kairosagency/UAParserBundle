@@ -1,0 +1,6 @@
+parameters:
+    ua_parser.class: UAParser\Lib\UA
+
+services:
+    ua_parser:
+        class: %ua_parser.class%
